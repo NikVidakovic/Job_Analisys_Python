@@ -39,7 +39,7 @@ I start by importing necessary libraries and loading dataset, followed by initia
 To find the most demanded skills for the top 3 most popular data roles I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills. It shows which skills we should pay attention to depending on the role we are targeting.
 
 View my notebook with detailed steps here:
-[2_Skill_Demand.ipynb](3_Project\2_Skills_Demand.ipynb)
+[2_Skill_Demand.ipynb](3_Project/2_Skills_Demand.ipynb)
 
 #### Visualize Data
 
@@ -74,7 +74,7 @@ plt.show()
 
 #### Results
 
-![Visualization of Top Skills](3_Project\images\correct.png)
+![Visualization of Top Skills](3_Project/images/correct.png)
 *Bar charts showing likelyhood of Skills Requested in US Job Postings*
 #### Insights:
 
@@ -85,7 +85,7 @@ plt.show()
 ## 2. How are In-demand skills trending for Data Analysts?
 
 View my notebook with detailed steps here:
-[4_Salary_Analysis.ipynb](3_Project\4_Salary_Analysis.ipynb)
+[4_Salary_Analysis.ipynb](3_Project/4_Salary_Analysis.ipynb)
 
 #### Visualize Data
 
@@ -107,7 +107,7 @@ plt.show()
 
 #### Results
 
-![Trending Top Skills for Data Analysts in the US](3_Project\images\In_demand_skills.png)
+![Trending Top Skills for Data Analysts in the US](3_Project/images/In_demand_skills.png)
 
 *Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
 
@@ -122,7 +122,7 @@ plt.show()
 ### Salary Analysis
 
 
-![Salary Distribution for Data Jobs in the US](3_Project\images\senior_junior_roles.png)
+![Salary Distribution for Data Jobs in the US](3_Project/images/senior_junior_roles.png)
 *Box plot visualizating the salary distributions for the top 6 data job titles*
 
 - This chart displays the yearly salary ranges for various data-related job roles, including Data Analyst, Senior Data Analyst, Data Engineer, Senior Data Engineer, Data Scientist, and Senior Data Scientist. The salaries are presented in box plots, which show the median, interquartile range, and the presence of outliers for each role.
@@ -134,7 +134,7 @@ plt.show()
 ### Highest Paid and Most demanded Skills for Data Analysts
 
 View my notebook with detailed steps here:
-[4_Salary_Analysis.ipynb](3_Project\4_Salary_Analysis.ipynb)
+[4_Salary_Analysis.ipynb](3_Project/4_Salary_Analysis.ipynb)
 
 #### Visualize Data
 
@@ -165,7 +165,7 @@ fig.tight_layout()
 ```
 #### Results
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts](3_Project\images\Most_In_Demand_Skills.png)
+![The Highest Paid & Most In-Demand Skills for Data Analysts](3_Project/images/Most_In_Demand_Skills.png)
 
 #### Insights:
 - This chart compares the top 10 highest paid skills and the top 10 most in-demand skills for data analysts based on median salary in the U.S.
@@ -179,7 +179,7 @@ fig.tight_layout()
 
 
 View my notebook with detailed steps here:
-[5_Optimal_Skills.ipynb](3_Project\5_Optimal_Skills.ipynb)
+[5_Optimal_Skills.ipynb](3_Project/5_Optimal_Skills.ipynb)
 
 ```python
 from adjustText import adjust_text
@@ -220,7 +220,7 @@ plt.show()
 ```
 
 #### Results
-![Most Optimal Skills for Data Analysts in the US](3_Project\images\optimal_skill.png)
+![Most Optimal Skills for Data Analysts in the US](3_Project/images/optimal_skill.png)
 *A scatterplot visualizing the most optimal skills (high paying & high demand) for data analysts in the US*
 
 #### Insights:
