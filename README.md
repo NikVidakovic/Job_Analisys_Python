@@ -85,7 +85,7 @@ plt.show()
 ## 2. How are In-demand skills trending for Data Analysts?
 
 View my notebook with detailed steps here:
-[4_Salary_Analysis.ipynb](3_Project/4_Salary_Analysis.ipynb)
+[3_Skills_Trend.ipynb](3_Project/3_Skills_Trend.ipynb)
 
 #### Visualize Data
 
@@ -121,6 +121,8 @@ plt.show()
 
 ### Salary Analysis
 
+View my notebook with detailed steps here:
+[4_Salary_Analysis.ipynb](3_Project/4_Salary_Analysis.ipynb)
 
 ![Salary Distribution for Data Jobs in the US](3_Project/images/senior_junior_roles.png)
 *Box plot visualizating the salary distributions for the top 6 data job titles*
@@ -133,8 +135,6 @@ plt.show()
 
 ### Highest Paid and Most demanded Skills for Data Analysts
 
-View my notebook with detailed steps here:
-[4_Salary_Analysis.ipynb](3_Project/4_Salary_Analysis.ipynb)
 
 #### Visualize Data
 
